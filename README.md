@@ -9,7 +9,7 @@ This project contains a React Typescript frontend and an Express backend. Both a
 ## Project Structure
 
 ```
-LightFeather-Coding/
+LightFeather-Coding-Challenge/
 ├── docker-compose.yml
 ├── server/
 │   ├── Dockerfile
@@ -23,8 +23,8 @@ LightFeather-Coding/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/LightFeather-Coding.git
-   cd LightFeather-Coding
+   git clone https://github.com/your-username/LightFeather-Coding-Challenge.git
+   cd LightFeather-Coding-Challenge
    ```
 
 2. **Build and start the containers:**
