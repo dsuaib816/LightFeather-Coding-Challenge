@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "LightFeather-Coding-Challenge",
+  "short_name": "LightFeather",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

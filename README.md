@@ -37,8 +37,14 @@ LightFeather-Coding-Challenge/
    - Build the backend (Node/Express) and frontend (React) containers
    - Start both containers
 
+   - Below is a how a successful console log may look:
+   ![Application Screenshot](images/success.png)
+
 3. **Access the application:**
    - Open your browser and go to: [http://localhost:3000](http://localhost:3000)
+
+   - You should see the application with a form similar to this:
+![Application Screenshot](images/appform.png)
 
 ## Stopping the Application
 
