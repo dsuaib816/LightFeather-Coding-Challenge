@@ -20,15 +20,18 @@ LightFeather-Coding-Challenge/
 ```
 
 ## Build and Run with Docker Compose
+1. **Open Command Prompt (Windows) or Terminal (Mac/Linux):**
+   - **Windows**: Press `Windows key + R`, type `cmd`, press Enter
+   - **Mac**: Press `Cmd + Space`, type `terminal`, press Enter  
+   - **Linux**: Press `Ctrl + Alt + T`
 
-1. **Clone the repository:**
+2. **Clone the repository and navigate into project:**
    ```sh
-   git clone https://github.com/your-username/LightFeather-Coding-Challenge.git
+   git clone https://github.com/dsuaib816/LightFeather-Coding-Challenge.git
    cd LightFeather-Coding-Challenge
    ```
-
-2. **Build and start the containers:**
-- Make sure Docker Desktop is running and you're authenicated before you start.
+3. **Build and start the containers:**
+- Make sure Docker Desktop is running and you're authenticated before you start.
    ```sh
    docker-compose up --build
    ```
@@ -37,8 +40,14 @@ LightFeather-Coding-Challenge/
    - Build the backend (Node/Express) and frontend (React) containers
    - Start both containers
 
-3. **Access the application:**
+   Below is how a successful console log may look:
+   ![Successful Build Screenshot](images/success.png)
+
+4. **Access the application:**
    - Open your browser and go to: [http://localhost:3000](http://localhost:3000)
+   - You should see the application with a form similar to this:
+
+   ![Application Form Screenshot](images/appform.png)
 
 ## Stopping the Application
 
@@ -69,9 +78,15 @@ Access the frontend at [http://localhost:3000](http://localhost:3000).
 
 ## Notes
 
-- The backend runs on port `8080` inside the container.
-- The frontend runs on port `3000` inside the container.
+- The backend runs on port `8080` inside the container
+- The frontend runs on port `3000` inside the container
 
+## Technologies Used
+
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Containerization:** Docker, Docker Compose
+- **Validation:** Yup (client-side), Custom validators (server-side)
 
 ---
 
