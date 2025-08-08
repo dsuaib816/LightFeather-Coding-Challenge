@@ -1,4 +1,4 @@
-# LightFeather-Coding
+# LightFeather-Coding-Challenge
 This project contains a React Typescript frontend and an Express backend. Both are containerized using Docker and can be run together using Docker Compose.
 
 ## Prerequisites
