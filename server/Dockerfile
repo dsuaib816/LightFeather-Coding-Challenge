@@ -1,0 +1,9 @@
+FROM node:alpine
+EXPOSE 8080
+WORKDIR /home/node
+COPY package.json .
+RUN npm install
+COPY *.js .
+COPY routes ./routes
+COPY validators ./validators
+ENTRYPOINT ["node", "server.js"]
