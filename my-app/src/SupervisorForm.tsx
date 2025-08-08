@@ -58,7 +58,7 @@ const SupervisorForm: React.FC = () => {
       if (err.response?.data?.error) {
         setMessage(err.response.data.error);
       } else {
-        setMessage('An error occurred while submitting.');
+        setMessage('An error occurred while submitting. Please refresh the page and try again.');
       }
     } finally {
       // Always reset loading state, regardless of success/failure
@@ -72,7 +72,7 @@ const SupervisorForm: React.FC = () => {
         <h2 className="text-[28px] font-bold text-white mb-6 text-center">
           Notification Form
         </h2>
-        
+
         {supervisorsError && (
           <AlertMessage message={supervisorsError} type="error" />
         )}
