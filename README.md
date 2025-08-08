@@ -28,6 +28,7 @@ LightFeather-Coding-Challenge/
    ```
 
 2. **Build and start the containers:**
+- Make sure Docker Desktop is running and you're authenicated before you start.
    ```sh
    docker-compose up --build
    ```
@@ -70,7 +71,7 @@ Access the frontend at [http://localhost:3000](http://localhost:3000).
 
 - The backend runs on port `8080` inside the container.
 - The frontend runs on port `3000` inside the container.
-- Make sure Docker Desktop is running before you start.
+
 
 ---
 
